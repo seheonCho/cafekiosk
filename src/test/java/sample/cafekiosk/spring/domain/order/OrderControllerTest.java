@@ -16,7 +16,9 @@ import org.springframework.test.web.servlet.MockMvc;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
 
+import sample.cafekiosk.spring.api.controller.OrderController;
 import sample.cafekiosk.spring.api.controller.order.request.OrderCreateRequest;
+import sample.cafekiosk.spring.api.service.order.OrderService;
 
 @WebMvcTest(controllers = OrderController.class)
 class OrderControllerTest {
